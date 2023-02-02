@@ -6,6 +6,7 @@ import { ContractsModule } from './contracts/contracts.module';
 import configuration from './config/configuration';
 import { environment } from './env/enviroments';
 import { ProjectsModule } from './projects/projects.module';
+import { DatabaseModule } from './database.module';
 import configurationSchema from './config/configuration.schema';
 
 @Module({
@@ -19,6 +20,7 @@ import configurationSchema from './config/configuration.schema';
     UsersModule,
     ContractsModule,
     ProjectsModule,
+    DatabaseModule,
   ],
   controllers: [],
   providers: [],
